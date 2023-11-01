@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    color: #eee;
+
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(./components/styles/fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+}

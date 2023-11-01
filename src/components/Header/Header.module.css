@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, rgb(119, 75, 45) 0%, rgb(44, 37, 38) 100%);
+}
+.box {
+    width: 100%;
+    text-align: center;
+}
+.header{overflow: hidden;}
+.header.fixed {
+    height: min-content;
+    transition: top 0.5s ease;
+  }
+
+.logo_img {
+    width: 50%;
+    margin: 12px 28%;
+}
+
+.box h2 {
+    color: white;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
